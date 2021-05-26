@@ -1,0 +1,94 @@
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Fiche élève première</title>
+	<link rel="stylesheet" type="text/css" href="feuille_style.css">
+</head>
+<body >
+<br>
+<h1>Fiche élève - classe de première 2019-2020</h1>
+<FORM NAME="fiche_eleve" autocomplete="false">
+
+<table border="0" align="left" cellspacing="1" >
+	<tr>
+		<td align="right"><br>Nom :</td>
+		<td><br><input type="text" name="nom" size="15" ></td>
+	<tr>
+		<td align="right"><br>Prénom :</td>
+		<td><br><input type="text" name="prenom" size="15" ></td>
+	</tr>
+	</tr>
+	<tr>
+		<td align="right"><br>Mot de passe :</td>
+		<td><br><input type="password" name="pwd" size="10"></td>
+	</tr>
+	<tr>
+		<td align="right"><br>Régime:</td>
+		<td><br>
+		<INPUT TYPE="radio" NAME="regime" VALUE="1"><font id="etiquette">Interne<BR>
+		<INPUT TYPE="radio" NAME="regime" VALUE="2">Demi-pensionnaire<BR> 
+		<INPUT TYPE="radio" NAME="regime" VALUE="3">Externe<BR></font></td>
+	</tr>
+	<tr>
+		<td align="right"><br>Date de naissance :</td>
+		<td><br><input type="date" name="date_naissance" size="40"></td>
+	</tr>
+	<tr>
+		<td align="right"><br>Classe:</td>
+		<td><br><SELECT NAME="classe"> 
+				<OPTION VALUE="0">Faites votre choix dans la liste
+				<OPTION VALUE="1">Première 1
+				<OPTION VALUE="2">Première 2
+				<OPTION VALUE="3">Première 3 
+				<OPTION VALUE="4">Première 4
+				<OPTION VALUE="5">Première 5 				
+				</SELECT></td>
+	</tr>
+	
+	<tr>
+		<td align="right"><br>LVA :</td>
+		<td><br><input type="checkbox" name="lva" size="15" ><font id="etiquette">Anglais</font></td>
+	</tr>
+	<tr>
+		<td align="right"><br>LVB :</td>
+		<td><br><SELECT NAME="lvb"> 
+				<OPTION VALUE="0">Faites votre choix dans la liste
+				<OPTION VALUE="1">Espagnol
+				<OPTION VALUE="2">Allemand
+				<OPTION VALUE="3">Italiens			
+				</SELECT></td>
+	</tr>
+	<tr>
+		<td align="right"><br>Spécialités :</td>
+		<td><br>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="1"><font id="etiquette">Arts<BR> 
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="2">Écologie, agronomie et territoires<BR> 
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="3">Histoire géographie, géopolitique et sciences politiques<BR> 
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="4">Humanités, littérature et philosophie<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="5">Langues et littératures étrangères<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="6">Mathématiques<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="7">Numérique et sciences informatiques<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="8">SVT (sciences de la vie et de la terre)<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="9">Sciences de l’ingénieur<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="10">Sciences économiques et sociales<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="11">Physique chimie<BR>
+			<INPUT TYPE="checkbox" NAME="specialites" VALUE="12">Littérature, langues et cultures de l’Antiquité<BR>			
+			</font></td>
+		</tr>
+		
+	<tr>
+		<td align="right"><br>Parcours EPS :</td>
+		<td><br><input type="text" name="eps" size="20" ></td>
+	</tr>
+	<tr>
+		<td align="right"><br>Date d'entrée :</td>
+		<td><br><input type="date" name="date_entrer" size="40"></td>
+	</tr>
+	<tr>
+		<td align="center" colspan="2"><br><br><input type="submit" value="Envoyer le formulaire">&nbsp;&nbsp;&nbsp;<input type="reset" value="Annuler la saisie"><br></td>
+	</tr>
+</table>
+</font>
+</FORM>
+</body>
+</html>
